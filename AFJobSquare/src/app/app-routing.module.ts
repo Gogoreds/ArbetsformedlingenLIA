@@ -3,18 +3,18 @@ import { RouterModule, Routes } from '@angular/router';
 
 // Components
 
-import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { FeedComponent } from './pages/feed/feed.component';
 import { JobsComponent } from './pages/jobs/jobs.component';
 import { MessagesComponent } from './pages/messages/messages.component';
+import { AuthComponent } from './pages/auth/auth.component';
 
 const routes: Routes = [
-  { path: 'sign-in', component: SignInComponent },
   { path: 'profile', component: ProfileComponent },
   { path: 'feed', component: FeedComponent },
   { path: 'jobs', component: JobsComponent },
   { path: 'messages', component: MessagesComponent },
+  { path: 'auth', component: AuthComponent },
   { path: '', redirectTo: '/feed', pathMatch: 'full' },
 ];
 

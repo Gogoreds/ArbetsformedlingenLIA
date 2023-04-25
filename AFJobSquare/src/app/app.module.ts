@@ -9,20 +9,20 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-import { SignInComponent } from './pages/sign-in/sign-in.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { FeedComponent } from './pages/feed/feed.component';
 import { JobsComponent } from './pages/jobs/jobs.component';
 import { MessagesComponent } from './pages/messages/messages.component';
+import { AuthComponent } from './pages/auth/auth.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignInComponent,
     ProfileComponent,
     FeedComponent,
     JobsComponent,
     MessagesComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,
