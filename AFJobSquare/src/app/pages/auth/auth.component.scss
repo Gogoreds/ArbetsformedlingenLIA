@@ -1,13 +1,6 @@
 :root {
   --color-white: #ffffff;
-  --color-light: #f1f5f9;
-  --color-black: #121212;
-  --color-night: #001632;
-
-  --color-red: #f44336;
-  --color-blue: #1a73e8;
-  --color-gray: #80868b;
-  --color-grayish: #dadce0;
+  --color-bg: #f3f2ef;
   --profilblue: #00005a;
   --profilgron: #95c23e;
 
@@ -71,7 +64,7 @@ img {
 // Components
 .signin {
   display: screen;
-  background-color: #d5d5d5;
+  background-color: var(--color-bg);
 }
 
 .container {
@@ -83,7 +76,7 @@ img {
   min-height: 400px;
   padding: 0 2rem;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .ion {
