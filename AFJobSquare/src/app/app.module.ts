@@ -5,13 +5,32 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { DigiArbetsformedlingenAngularModule } from '@digi/arbetsformedlingen-angular';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { SignInComponent } from './pages/sign-in/sign-in.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { FeedComponent } from './pages/feed/feed.component';
+import { JobsComponent } from './pages/jobs/jobs.component';
+import { MessagesComponent } from './pages/messages/messages.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+    SignInComponent,
+    ProfileComponent,
+    FeedComponent,
+    JobsComponent,
+    MessagesComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     DigiArbetsformedlingenAngularModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
