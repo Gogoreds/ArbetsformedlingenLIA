@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { SharedModule } from './modules/shared.module';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,9 +15,6 @@ import { FeedComponent } from './pages/feed/feed.component';
 import { JobsComponent } from './pages/jobs/jobs.component';
 import { MessagesComponent } from './pages/messages/messages.component';
 import { AuthComponent } from './pages/auth/auth.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -26,9 +24,6 @@ import { NewsComponent } from './components/news/news.component';
     JobsComponent,
     MessagesComponent,
     AuthComponent,
-    HeaderComponent,
-    FooterComponent,
-    NewsComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +32,7 @@ import { NewsComponent } from './components/news/news.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

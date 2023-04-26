@@ -1,10 +1,19 @@
 import { Component } from '@angular/core';
+import { SharedModule } from '../../modules/shared.module';
 
 @Component({
   selector: 'app-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss']
+  template: ` <app-header></app-header>
+    <div class="bg-[#eceae6]">
+      <app-footer></app-footer>
+    </div>`,
+  styles: [
+    `
+      .active {
+        border: 1px solid #00005a;
+        color: #ffff;
+      }
+    `,
+  ],
 })
-export class ProfileComponent {
-
-}
+export class ProfileComponent {}
