@@ -20,6 +20,7 @@
             "customWebpackConfig": {
               "path": "./webpack.config.js"
             },
+            "polyfills": "src/polyfills.ts",
             "outputPath": "dist/afjob-square",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -83,6 +84,7 @@
             "customWebpackConfig": {
               "path": "./webpack.config.js"
             },
+            "polyfills": "src/polyfills.ts",
             "main": "src/test.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",

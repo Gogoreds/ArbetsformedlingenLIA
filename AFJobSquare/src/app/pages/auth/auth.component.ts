@@ -3,20 +3,25 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-auth',
   template: `
-    <div class="flex flex-col h-screen justify-center items-center">
+    <div
+      class="flex flex-col h-screen justify-center items-center bg-[#eceae6]"
+    >
       <div class="w-24 mb-4">
-        <img src="company-logo.png" alt="Company Logo" />
+        <img
+          src="/AFJobSquare/src/assets/af_logo.png"
+          alt="Arbetsförmedlingen Logo"
+        />
       </div>
       <form class="w-1/3 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
         <h2 class="text-xl mb-4">Sign {{ isSeeker ? 'In' : 'Up' }}</h2>
         <div class="flex mb-4">
           <button
-            class="mr-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full {{
+            class="mr-2 bg-[#00005A] text-white font-bold py-2 px-4 rounded-full {{
               isSeeker ? 'active' : ''
             }}"
             (click)="toggleForm()"
           >
-            Job Seeker
+            Arbetssökande
           </button>
           <button
             class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full {{
@@ -24,7 +29,7 @@ import { Component } from '@angular/core';
             }}"
             (click)="toggleForm()"
           >
-            Job Holder
+            Arbetsgivare
           </button>
         </div>
         <div class="mb-4">
