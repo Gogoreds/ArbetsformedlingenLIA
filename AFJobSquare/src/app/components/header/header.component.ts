@@ -48,38 +48,38 @@ import { Component } from '@angular/core';
               </div>
             </div>
           </div>
-          <div class="flex pl-64 space-x-4">
-            <div class="flex space-x-8">
+          <div class="flex space-x-4 nav-item pl-64">
+            <a href="/" class="flex flex-col items-center text-white">
               <svg
-                class="text-white h-6 w-6"
+                class="h-6 w-6 mb-1"
                 xmlns="http://www.w3.org/2000/svg"
-                id="Layer_1"
-                data-name="Layer 1"
+                viewBox="0 0 24 24"
                 fill="white"
               >
                 <path
-                  d="M22,5.724V2c0-.552-.447-1-1-1s-1,.448-1,1v2.366L14.797,.855c-1.699-1.146-3.895-1.146-5.594,0L2.203,5.579c-1.379,.931-2.203,2.48-2.203,
-          4.145v9.276c0,2.757,2.243,5,5,5h2c.553,0,1-.448,1-1V14c0-.551,.448-1,1-1h6c.552,0,1,.449,1,1v9c0,.552,.447,1,1,1h2c2.757,0,5-2.243,5-5V9
-          .724c0-1.581-.744-3.058-2-4Z"
+                  d="M22,5.724V2c0-.552-.447-1-1-1s-1,.448-1,1v2.366L14.797,.855c-1.699-1.146-3.895-1.146-5.594,0L2.203,5.579c-1.379,.931-2.203,2.48-2.203,4.145v9.276c0,2.757,2.243,5,5,5h2c.553,0,1-.448,1-1V14c0-.551,.448-1,1-1h6c.552,0,1,.449,1,1v9c0,.552,.447,1,1,1h2c2.757,0,5-2.243,5-5V9.724c0-1.581-.744-3.058-2-4Z"
                 />
               </svg>
+              <span>Home</span>
+            </a>
+
+            <a href="/" class="flex flex-col items-center text-white">
               <svg
-                class="h-6 w-6"
-                id="Layer_1"
+                class="h-6 w-6 mb-1"
                 fill="white"
                 xmlns="http://www.w3.org/2000/svg"
-                data-name="Layer 1"
               >
                 <path
                   d="m7.5 13a4.5 4.5 0 1 1 4.5-4.5 4.505 4.505 0 0 1 -4.5 4.5zm7.5 7a5.006 5.006 0 0 0 -5-5h-5a5.006 5.006 0 0 0 -5 5v4h15zm2.5-11a4.5 4.5 0 1 1 4.5-4.5 4.505 4.505 0 0 1 -4.5 4.5zm1.5 2h-5a4.793 4.793 0 0 0 -.524.053 6.514 6.514 0 0 1 -1.576 2.216 7.008 7.008 0 0 1 5.1 6.731h7v-4a5.006 5.006 0 0 0 -5-5z"
                 />
               </svg>
+              <span>Network</span>
+            </a>
+            <a href="/" class="flex flex-col items-center text-white">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="Layer_1"
-                data-name="Layer 1"
-                class="h-6 w-6"
+                class="h-6 w-6 mb-1"
                 fill="white"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <polygon
                   points="13 14 13 16 11 16 11 14 0 14 0 24 24 24 24 14 13 14"
@@ -88,28 +88,35 @@ import { Component } from '@angular/core';
                   d="M24,12V7a3,3,0,0,0-3-3H18V2a2,2,0,0,0-2-2H8A2,2,0,0,0,6,2V4H3A3,3,0,0,0,0,7v5ZM8,2h8V4H8Z"
                 />
               </svg>
-
+              <span>Jobs</span>
+            </a>
+            <a href="/" class="flex flex-col items-center text-white">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="Filled"
-                class="h-6 w-6"
+                class="h-6 w-6 mb-1"
                 fill="white"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   d="M20,0H4A4,4,0,0,0,0,4V16a4,4,0,0,0,4,4H6.9l4.451,3.763a1,1,0,0,0,1.292,0L17.1,20H20a4,4,0,0,0,4-4V4A4,4,0,0,0,20,0ZM7,5h5a1,1,0,0,1,0,2H7A1,1,0,0,1,7,5ZM17,15H7a1,1,0,0,1,0-2H17a1,1,0,0,1,0,2Zm0-4H7A1,1,0,0,1,7,9H17a1,1,0,0,1,0,2Z"
                 />
               </svg>
+              <span>Messages</span>
+            </a>
+
+            <!-- Notifications -->
+            <a href="/" class="flex flex-col items-center text-white">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
-                id="Layer_1"
-                data-name="Layer 1"
-                class="h-6 w-6"
+                class="h-6 w-6 mb-1"
                 fill="white"
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   d="M18.36,21c-.45,1.72-2,3-3.86,3s-3.41-1.28-3.86-3h7.72Zm5.05-2.99l.05-.06c.5-.66,.67-1.5,.46-2.25l-1.65-7.83c-.97-3.46-4.16-5.88-7.77-5.88-3.81,0-7.04,2.58-7.87,6.3l-1.56,7.49c-.17,.79,.02,1.6,.52,2.23,.51,.63,1.26,.99,2.07,.99h13.67c.81,0,1.56-.36,2.07-.99ZM3.12,15.35l1.55-7.47c.84-3.75,3.62-6.57,7.15-7.53-.74-.22-1.52-.36-2.32-.36C5.69,0,2.45,2.58,1.62,6.3L.06,13.78c-.17,.79,.02,1.6,.52,2.23,.51,.63,1.26,.99,2.07,.99h.4c-.08-.54-.06-1.1,.06-1.65Z"
                 />
               </svg>
+              <span>Notifications</span>
+            </a>
+            <!-- <a href="/" class="flex flex-col items-center text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -153,83 +160,13 @@ import { Component } from '@angular/core';
                   />
                 </g>
               </svg>
-            </div>
+              <span>For Business</span>
+            </a> -->
           </div>
         </div>
 
-        <div class="flex lg:hidden">
-          <!-- Mobile menu button -->
-          <button
-            type="button"
-            class="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
-            aria-controls="mobile-menu"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Open main menu</span>
-            <!--
-            Icon when menu is closed.
-
-            Menu open: "hidden", Menu closed: "block"
-          -->
-            <svg
-              class="block h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
-            <!--
-            Icon when menu is open.
-
-            Menu open: "block", Menu closed: "hidden"
-          -->
-            <svg
-              class="hidden h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              aria-hidden="true"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12"
-              />
-            </svg>
-          </button>
-        </div>
         <div class="hidden lg:ml-4 lg:block">
           <div class="flex items-center">
-            <button
-              type="button"
-              class="flex-shrink-0 rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-            >
-              <span class="sr-only">View notifications</span>
-              <svg
-                class="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0"
-                />
-              </svg>
-            </button>
-
-            <!-- Profile dropdown -->
             <div class="relative ml-4 flex-shrink-0">
               <div>
                 <button
@@ -239,7 +176,6 @@ import { Component } from '@angular/core';
                   aria-expanded="false"
                   aria-haspopup="true"
                 >
-                  <span class="sr-only">Open user menu</span>
                   <img
                     class="h-8 w-8 rounded-full"
                     src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
@@ -381,6 +317,15 @@ import { Component } from '@angular/core';
       .active {
         border: 1px solid #00005a;
         color: #ffff;
+      }
+      .common-svg {
+        height: 6;
+        width: 6;
+        fill: white;
+      }
+      .nav-item {
+        display: flex;
+        align-items: center;
       }
     `,
   ],
