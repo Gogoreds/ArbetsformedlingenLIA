@@ -20,9 +20,16 @@ import { Component } from '@angular/core';
           <h1 class="font-bold text-base">General Motors</h1>
           <h4>Freelance Developer</h4>
           <h5 class="text-sm text-slate-500">DEC 2019 - Present</h5>
-          <p class="text-slate-700 font-normal pt-2 text-sm">- Lorem</p>
-          <p class="text-slate-700 font-normal text-sm">- Lorem</p>
-          <p class="text-slate-700 font-normal text-sm">- Lorem</p>
+          <p class="text-slate-700 font-normal pt-2 text-sm">
+            - Developed a responsive website using Angular and TailwindCSS.
+          </p>
+          <p class="text-slate-700 font-normal text-sm">
+            - Worked in an agile environment alongside a team of seasoned
+            developers.
+          </p>
+          <p class="text-slate-700 font-normal text-sm">
+            - Designed a visually appealing website using Figma and Adobe XD!
+          </p>
         </div>
       </div>
       <div class="flex pt-8">
@@ -47,9 +54,16 @@ import { Component } from '@angular/core';
           <h3 class="font-bold text-base">Xavier Institute</h3>
           <h4>Front-end Developer</h4>
           <h5 class="text-sm text-slate-500">JUN 2010 - SEP 2018</h5>
-          <p class="text-slate-700 font-normal pt-2 text-sm">- Lorem</p>
-          <p class="text-slate-700 font-normal text-sm">- Lorem</p>
-          <p class="text-slate-700 font-normal text-sm">- Lorem</p>
+          <p class="text-slate-700 font-normal pt-2 text-sm">
+            - Developed a responsive websites using Angular and TailwindCSS.
+          </p>
+          <p class="text-slate-700 font-normal text-sm">
+            - Helped students learn more about their superpowers!
+          </p>
+          <p class="text-slate-700 font-normal text-sm">
+            - Designed beautiful and sustainable uniforms for the gifted
+            students!
+          </p>
         </div>
       </div>
     </div>
