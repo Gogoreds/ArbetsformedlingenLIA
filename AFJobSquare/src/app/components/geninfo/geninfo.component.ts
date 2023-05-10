@@ -4,10 +4,17 @@ import { Component } from '@angular/core';
   selector: 'app-geninfo',
   template: `
     <body
-      class="w-7/12 h-[240px] rounded-sm bg-white border-t-[16px] border-[#95C23E] rounded-b-lg shadow-md"
+      class="w-7/12 h-36 rounded-sm bg-white border-t-[16px] border-[#95C23E] rounded-b-lg shadow-md"
     >
-      <h3>General Information</h3>
-      <p></p>
+      <div class="pt-4 pl-8">
+        <h3 class="text-slate-800 font-semibold text-xl">
+          General Information
+        </h3>
+        <p class="text-slate-700 font-thin pt-4">
+          Just your average genious front-end developer, nothing more, nothing
+          less...
+        </p>
+      </div>
     </body>
   `,
   styles: [
