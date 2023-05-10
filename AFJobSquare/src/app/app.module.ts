@@ -15,6 +15,10 @@ import { FeedComponent } from './pages/feed/feed.component';
 import { JobsComponent } from './pages/jobs/jobs.component';
 import { MessagesComponent } from './pages/messages/messages.component';
 import { AuthComponent } from './pages/auth/auth.component';
+import { GeninfoComponent } from './components/geninfo/geninfo.component';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { InterestsComponent } from './components/interests/interests.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +28,10 @@ import { AuthComponent } from './pages/auth/auth.component';
     JobsComponent,
     MessagesComponent,
     AuthComponent,
+    GeninfoComponent,
+    ExperienceComponent,
+    SkillsComponent,
+    InterestsComponent,
   ],
   imports: [
     BrowserModule,

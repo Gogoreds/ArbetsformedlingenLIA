@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-hero',
   template: ` <body
-    class="w-7/12 h-[480px] border border-1 rounded-sm bg-white"
+    class="w-7/12 h-[480px] border border-1 rounded-sm bg-white rounded-b-lg shadow-md"
   >
     <!-- Banner image -->
     <div
@@ -25,8 +25,10 @@ import { Component } from '@angular/core';
       <div class="absolute top-16 w-full pl-4">
         <!-- Name and Title -->
         <div class="flex flex-col">
-          <h2 class="text-black font-bold text-2xl">Captain Angular</h2>
-          <h4 class="text-black font-semibold text-lg">Front-end Utvecklare</h4>
+          <h2 class="text-slate-800 font-bold text-2xl">Captain Angular</h2>
+          <h4 class="text-slate-700 font-semibold text-lg">
+            Front-end Utvecklare
+          </h4>
           <p class="text-slate-700 font-thin">
             Here I am. What are your other two wishes?
           </p>
@@ -34,17 +36,17 @@ import { Component } from '@angular/core';
         <!-- Buttons -->
         <div class="flex pt-8 space-x-2">
           <button
-            class="bg-[#00005a] hover:bg-cyan-500 text-white px-4 py-2 rounded"
+            class="bg-[#00005a] hover:bg-blue-900 text-white px-4 py-2 rounded"
           >
             Open to Connections
           </button>
           <button
-            class="bg-white border-2 border-[#00005a] text-[#00005a] px-4 py-2 rounded"
+            class="bg-white border-2 border-[#00005a] hover:bg-slate-100 text-[#00005a] px-4 py-2 rounded"
           >
             Send a Message
           </button>
           <button
-            class="bg-white border-2 border-[#00005a] text-[#00005a] px-4 py-2 rounded"
+            class="bg-white border-2 border-[#00005a] hover:bg-slate-100 text-[#00005a] px-4 py-2 rounded"
           >
             More
           </button>
